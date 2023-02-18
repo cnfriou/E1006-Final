@@ -48,8 +48,6 @@ Next, write the method process(self, adjacent_cells) in the Cell class. adjacent
 Finally, we need to be able to process all cells on the map. Our simulation uses discrete time steps. Write the method time_step(self) in the Map class, which evaluates such a time step. The method should simply call the process() method on each of the cells on the map and finally call display() to display the new state of the map.
 You should now be able to infect a cell on the map and see the disease spread on each time step. 
 
-![image](https://user-images.githubusercontent.com/109674353/219903813-47351dce-0ddf-41bc-8287-1fe817ab3d74.png)
-![image](https://user-images.githubusercontent.com/109674353/219903820-4b87de6f-c4f7-4fc2-82d6-4e509510830f.png)
 ![image](https://user-images.githubusercontent.com/109674353/219903823-523b294e-6b22-4a07-bd62-7b978f507fbd.png)
 
 Step 3 (20 points) - Recovery
